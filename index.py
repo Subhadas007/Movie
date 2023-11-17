@@ -9,7 +9,7 @@ from movies_scraper import search_movies, get_movie
 
 
 TOKEN = os.getenv("6521441565:AAFrt3fOPT5YdLKGrh8q4ZjOpXOVDEH1p3g")
-URL = os.getenv("movie-flax-three.vercel.app")
+URL = os.getenv("URL")
 bot = Bot(TOKEN)
 
 
